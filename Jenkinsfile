@@ -10,19 +10,3 @@ pipeline {
                 '''
             }
         }
-        stage('SIT') {
-            steps {
-                bat 'echo "Testing"'
-            }
-        }
-        stage('UAT') {
-            steps {
-                bat 'echo "Testing"'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                bat 'echo "Deploying"'
-            }
-        }
-    }
